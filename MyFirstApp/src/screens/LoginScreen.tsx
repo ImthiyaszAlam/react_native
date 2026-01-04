@@ -19,7 +19,7 @@ export default function LofinScreen({ navigation }: any) {
         onPress={() => navigation.navigate('Register')}
       />
 
-      <View style={{ marginBottom: 10, marginTop: 10 }}>
+      <View style={{ marginBottom: 10, marginTop: 20 }}>
         <Button title="Login" onPress={() => navigation.replace('Home')} />
       </View>
     </View>
